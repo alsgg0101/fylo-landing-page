@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+header {
+    margin: 1rem 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 0.30rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: hsl(243, 87%, 12%);
+}
+
+nav h1 img {
+    width: 60%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem 5%;
+}
+
+.container1 .image img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.container1 .text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.container1 .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 input {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    border-width: thin;
+    color: hsla(0, 0%, 75%, 0.2);
+}
+
+.form1 button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 2px 5px 8px hsla(0, 0%, 75%);
+}
+
+.form1 button:hover {
+    background-color: hsl(224, 60%, 58%);
+}
+
+.bg-curve {
+    width: 100%;
+    display: block;
+    margin-top: 4rem;
+}
+
+.container2 {
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem 5%;
+    padding-bottom: 4rem;
+}
+
+.container2 .image img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.container2 .text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container2 .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.link a {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 1.5px solid hsl(170, 45%, 43%);
+    padding-bottom: 0.2rem;
+    display: inline-block;
+}
+
+.link a svg{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.link a:hover {
+    border-bottom: 1.5px solid hsl(170, 64%, 68%);;
+    color: hsl(170, 64%, 68%);
+}
+
+.link a:hover svg g use {
+    fill: hsl(170, 64%, 68%);
+}
+
+.founder-speech {
+    background-color: #fff;
+    box-shadow: 2px 5px 8px hsl(0, 0%, 75%);
+    border-radius: 0.3rem;
+    padding: 1rem 5%;
+    margin: 2.8rem 0;
+}
+
+.founder-speech img {
+    margin: 0.5rem;
+}
+
+.container2 .text .founder-speech p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.775rem;
+}
+
+.founder {
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.founder img {
+    border-radius: 100%;
+    width: 13%;
+}
+
+.founder .text {
+    padding: 0 0.7rem;
+}
+
+.founder .text span strong {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    display: block;
+}
+
+.founder .text span {
+    font-size: 0.6rem;
+}
+
+.newsletter {
+    background: hsl(238, 22%, 44%);
+    padding: 2rem 5%;
+}
+
+.newsletter h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 700;
+    color: #fff;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter p {
+    color: #fff;
+    margin: 1rem;
+
+    display: flex;
+    text-align: center;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.form2 input {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    border-width: thin;
+    color: hsla(0, 0%, 75%, 0.2);
+    width: 85%;
+}
+
+.form2 button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    font-weight: 700;
+    width: 85%;
+    cursor: pointer;
+}
+
+.form2 button:hover {
+    background-color: hsl(224, 60%, 58%);
+}
+
+footer {
+    background-color: hsl(238, 40%, 19%);
+    color: #fff;
+    padding: 4rem 5%;
+}
+
+footer img {
+    filter: brightness(0) invert(1);
+    display: block;
+    padding: 1rem;
+}
+
+.footer-col ul li {
+    list-style: none;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-col img {
+    display: inline-block;
+    padding: 0;
+    padding-right: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+.socials .fb-icon {
+    border-radius: 100%;
+    padding: 0.8rem;
+    filter: brightness(0) invert(1);
+}
+
+.socials .tw-icon {
+    border-radius: 100%;
+    padding: 0.8rem;
+    filter: brightness(0) invert(1);
+}
+
+.socials .ig-icon {
+    border-radius: 100%;
+    padding: 0.8rem;
+    filter: brightness(0) invert(1);
+}
+
+.socials {
+    padding-right: 5rem;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 960px){
+    .row {
+        display: block;
+        padding: 0 1rem;
+    }
+
+    .footer-col {
+        margin: 2rem 0;
+    }
+
+    .socials {
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+    nav h1 img {
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        padding-left: 1.5rem;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container1 .image {
+        width: 100%;
+    }
+
+    .container1 .image img {
+        margin: 0;
+    }
+
+    .container1 .text {
+        width: 100%;
+    }
+
+    .container1 .text h2 {
+        text-align: start;
+        margin: 0;
+        padding: 1rem 0;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .container1 .text p {
+        text-align: start;
+        margin: 0;
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .form1 {
+        display: inline-block;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .form1 input {
+        margin: 0;
+        padding: 1rem;
+        border-width: thin;
+        color: hsla(0, 0%, 75%, 0.2);
+        width: 45%;
+    }
+
+    .form1 button {
+        padding: 1rem;
+        border-radius: 0.3rem;
+        margin-left: 1rem;
+        width: 30%;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container2 .image {
+        width: 40%;
+    }
+
+    .container2 .image img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container2 .text {
+        width: 60%;
+    }
+
+    .container2 .text h2 {
+        font-size: 2.9rem;
+        text-align: start;
+        margin: 0;
+        padding-bottom: 1.2rem;
+    }
+
+    .container2 .text p {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+        font-family: 'Open Sans', sans-serif;
+        width: 80%;
+    }
+
+    .link {
+        display: block;
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .founder-speech {
+        padding: 1rem 5%;
+        margin: 3rem 0;
+        width: 58%;
+    }
+
+    .founder-speech img {
+        margin: 0;
+        display: block;
+        padding: 1rem 0;
+    }
+
+    .container2 .text .founder-speech p {
+        font-size: 1.1rem;
+        display: inline;
+        line-height: 2rem;
+    }
+
+    .founder img {
+        width: 13%;
+    }
+
+    .founder .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /*.founder .text p {
+        padding: 0;
+    }
+
+    .founder .text p strong {
+        font-size: 0.8rem;
+    }
+
+    .founder .text p span {
+        font-size: 0.6rem;
+    }*/
+
+
+    .newsletter {
+        padding: 4rem 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .newsletter .text {
+        width: 60%;
+    }
+
+    .newsletter .form2 {
+        width: 40%;
+    }
+
+    .newsletter h3 {
+        margin: 0;
+        display: block;
+        text-align: start;
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+    .newsletter p {
+        margin: 0;
+        padding: 1rem 0;
+        width: 77%;
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+
+        display: block;
+        text-align: start;
+    }
+
+    .form2 {
+        display: block;
+    }
+
+    .form2 input {
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+
+    .form2 button {
+        padding: 1rem;
+        border: none;
+        width: 45%;
+    }
+}
